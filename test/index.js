@@ -16,7 +16,7 @@ describe('Default Options', () => {
   let ConnectorStub = require('./artifacts/NoErrorConnector');
 
   beforeEach(done => {
-    plugin = rewire('../');
+    plugin = rewire('../lib');
     plugin.__set__('MongooseConnector', ConnectorStub);
     server = new Hapi.Server({ debug: false });
     server.connection();
