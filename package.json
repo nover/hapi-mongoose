@@ -38,12 +38,15 @@
     "eslint-plugin-standard": "^3.0.1",
     "hapi": "^17.2.0",
     "lab": "^15.2.2",
+    "mongoose": "^5.0.6",
     "rewire": "^3.0.2",
     "sinon": "^4.3.0"
   },
   "dependencies": {
     "bluebird": "^3.0.5",
-    "hoek": "^5.0.3",
+    "hoek": "^5.0.3"
+  },
+  "peerDependencies": {
     "mongoose": "^5.0.6"
   }
 }
